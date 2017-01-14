@@ -8,8 +8,10 @@
   <body>
     <div id="content">
       <header>
-        <img id="logo" src="images/logo.png" />
-        <p class="logo-container"><span id="logotype">Delicious</span><br /><span class="subtext">The best food blog on the web</span></p>
+        <div id="logo-combo">
+          <img id="logo" src="images/logo.png" />
+          <div class="logo-container"><p id="logotype">Delicious</p><p class="subtype">The best food blog on the web</p>
+        </div>
         <span id="icons">
           <img src="images/fb-icon.png">
           <img src="images/twit-icon.png">
@@ -17,7 +19,7 @@
           <img src="images/insta-icon.png">
           <img src="images/flic-icon.png">
           <img src="images/pint-icon.png">
-          <img src="images/rss-icon.png">
+          <img class="space" src="images/rss-icon.png">
           <img src="images/mail-icon.png">
         </span>
       </header>
@@ -55,8 +57,21 @@
         </section>
       </article>
       <section class="divider"></section>
-      <section id="signature"></section>
-      <footer></footer>
+      <section id="signature">
+        <button id="share">Share Recipe</button>
+        <div id="bio">
+          <img src="images/van-pic.png" />
+          <div id="biotext">
+            <p class="bold">Vanessa Stevenson</p>
+            <p>Food enthusiast, photograph fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+          <div>
+        </div>
+      </section>
+      <footer>
+        <hr />
+        <div id="footer-logo"><img src="images/small-logo.png" /></div>
+        <p id="copyright">Delicious 2013 - All Rights Reserved.<br />Proudly published with Ghost.</p>
+      </footer>
     </div>
   </body>
 </html>
