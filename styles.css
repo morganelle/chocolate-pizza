@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Yellowtail');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
 /* global */
 * {
@@ -144,6 +145,11 @@ form.recipe {
   padding-left: 50px;
   min-height: 255px;
   line-height: 1.5em;
+}
+
+form input, label {
+  font-family: 'Varela Round', sans-serif;
+  line-height: 1.6em;
 }
 
 /* signature */
